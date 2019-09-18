@@ -18,7 +18,7 @@ Page({
 
   //打印文本,首次提交
   showFirstText: function() {
-    console.log("打印一个文本,首次提交")
+    console.log("打印文本,首次提交")
   },
 
   onLoad: function() {

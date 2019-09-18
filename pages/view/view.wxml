@@ -1,0 +1,9 @@
+<!--pages/view/view.wxml-->
+<view hover-class="hover-class-style" hover-stay-time="100">
+  <!-- 行内样式 -->
+  <view style="background:red;color:white;height:100rpx;">我是一个view1</view>
+  <!-- 外部样式 -->
+  <view class="text-style">我是一个view2</view>
+  <!-- 外部样式 +全局样式-->
+  <view class="fs globle-style">我是一个view3</view>
+</view>

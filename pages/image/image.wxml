@@ -1,0 +1,5 @@
+<!--pages/image/image.wxml-->
+<view>1.加载项目中的图片</view>
+<image src="../../image/bg_avatar.png"></image>
+<view>2.加载项目中的图片</view>
+<image src="http://pic13.nipic.com/20110409/7119492_114440620000_2.jpg"></image>

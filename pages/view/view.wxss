@@ -1,0 +1,13 @@
+/* 导入外部的样式 */
+@import '../../style/base.wxss';
+
+.hover-class-style{
+  opacity: 0.6;
+}
+
+.text-style{
+  background: skyblue;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+}

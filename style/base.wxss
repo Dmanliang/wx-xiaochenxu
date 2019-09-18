@@ -1,0 +1,5 @@
+.fs{
+  font-size: 36rpx;
+  background: greenyellow;
+  height: 100rpx;
+}

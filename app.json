@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/image/image",
+    "pages/view/view",
+    "pages/text/text",
     "pages/index/index",
     "pages/logs/logs"
   ],

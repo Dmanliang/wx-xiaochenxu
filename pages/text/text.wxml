@@ -1,0 +1,8 @@
+<!--pages/text/text.wxml-->
+<view>
+  <text>我是第1个文本\n</text>
+  <text>{{title}}\n</text>
+  <text wx:if="{{isShow}}">我是第3个文本\n</text>
+  <text>我是第4个文本\n</text>
+  <text>我是第5个文本\n</text>
+</view>

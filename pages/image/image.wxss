@@ -1,0 +1,5 @@
+/* pages/image/image.wxss */
+image{
+  width: 300rpx;
+  height: 300rpx;
+}

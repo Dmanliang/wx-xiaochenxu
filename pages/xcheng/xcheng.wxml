@@ -1,0 +1,63 @@
+<!-- 第一个item -->
+<view class="view1-style" style="background:{{itemBeans[0].bgColor}}">
+  <!-- 左边 -->
+  <view class="view-left-style">
+    <text class="view-style-text">{{itemBeans[0].title}}</text>
+    <image class="view-left-style-image" src="../../image/hotel.png"></image>
+  </view>
+  <!-- 右边 -->
+  <view class="view-right-style">
+    <!-- 上边 -->
+    <view class="view-r-t-style">
+      <text class="view-r-style-text">{{itemBeans[0].items[0].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[0].items[1].title}}</text>
+    </view>
+    <!-- 下边 -->
+    <view class="view-r-b-style">
+      <text class="view-r-style-text">{{itemBeans[0].items[2].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[0].items[3].title}}</text>
+    </view>
+  </view>
+</view>
+<!-- 第二个item -->
+<view class="view1-style" style="background:{{itemBeans[1].bgColor}}">
+  <!-- 左边 -->
+  <view class="view-left-style">
+    <text class="view-style-text">{{itemBeans[1].title}}</text>
+    <image class="view-left-style-image" src="../../image/plane.png"></image>
+  </view>
+  <!-- 右边 -->
+  <view class="view-right-style">
+    <!-- 上边 -->
+    <view class="view-r-t-style">
+      <text class="view-r-style-text">{{itemBeans[1].items[0].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[1].items[1].title}}</text>
+    </view>
+    <!-- 下边 -->
+    <view class="view-r-b-style">
+      <text class="view-r-style-text">{{itemBeans[1].items[2].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[1].items[3].title}}</text>
+    </view>
+  </view>
+</view>
+<!-- 第三个item -->
+<view class="view1-style" style="background:{{itemBeans[2].bgColor}}">
+  <!-- 左边 -->
+  <view class="view-left-style">
+    <text class="view-style-text">{{itemBeans[2].title}}</text>
+    <image class="view-left-style-image" src="../../image/tour.png"></image>
+  </view>
+  <!-- 右边 -->
+  <view class="view-right-style">
+    <!-- 上边 -->
+    <view class="view-r-t-style">
+      <text class="view-r-style-text">{{itemBeans[2].items[0].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[2].items[1].title}}</text>
+    </view>
+    <!-- 下边 -->
+    <view class="view-r-b-style">
+      <text class="view-r-style-text">{{itemBeans[2].items[2].title}}</text>
+      <text class="view-r-style-text">{{itemBeans[2].items[3].title}}</text>
+    </view>
+  </view>
+</view>

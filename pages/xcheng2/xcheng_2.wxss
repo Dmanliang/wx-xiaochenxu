@@ -1,0 +1,55 @@
+.view1-style {
+  height: 200rpx;
+  /* 指定布局为flexbox布局 */
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.view-left-style {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid white;
+}
+
+.view-style-text {
+  font-size: 45rpx;
+}
+
+.view-left-style-image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 5rpx;
+}
+
+.view-right-style {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-r-t-style {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.view-r-b-style {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.view-r-style-text {
+  font-size: 40rpx;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 分割线 */
+  border-left: 1rpx solid white;
+  border-bottom: 1rpx solid white;
+}

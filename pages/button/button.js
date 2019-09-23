@@ -1,13 +1,15 @@
-// pages/text/text.js
+// pages/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:'我是第2个文本',
-    isShow:true,
-    view:'MAIN'
+    isLoading:false
+  },
+
+  clickMe:function(event){
+    console.log("--------->")
   },
 
   /**

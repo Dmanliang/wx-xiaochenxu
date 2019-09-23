@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/button/button",
+    "pages/input/input",
+    "pages/xcheng2/xcheng_2",
     "pages/xcheng/xcheng",
     "pages/image/image",
     "pages/view/view",

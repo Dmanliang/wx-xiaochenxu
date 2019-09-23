@@ -1,0 +1,9 @@
+<input class="input" placeholder="占位符" placeholder-style="color:green" placeholder-class="p-holder-style" maxlength="20" bindinput="onbindinput" bindblur="onbindblur"></input>
+<text>{{value}}</text>
+<text>{{'\n'+datas}}</text>
+<input class="input" password="{{true}}" placeholder="密码框" placeholder-class="p-holder-style" maxlength="20"></input>
+<input class="input" confirm-type="send" placeholder="发送" placeholder-class="p-holder-style"></input>
+<input class="input" confirm-type="search" placeholder="搜索" placeholder-class="p-holder-style"></input>
+<input class="input" confirm-type="go" placeholder="前往" placeholder-class="p-holder-style"></input>
+<input class="input" confirm-type="next" placeholder="下一个" placeholder-class="p-holder-style"></input>
+<input class="input" confirm-type="done" placeholder="完成" placeholder-class="p-holder-style"></input>

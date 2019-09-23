@@ -63,7 +63,7 @@ Page({
       },
       {
         "type": 0,
-        "imageUrl": "../../image/hotel.png",
+        "imageUrl": "../../image/tour.png",
         "title": "旅游",
         "tagUrl": "",
         "items": [{

@@ -1,0 +1,18 @@
+<button size="mini" bindtap="clickMe"
+type="primary">按钮</button>
+<button size="mini" bindmap="clickMe"
+type="warn">按钮</button>
+<button size="mini" bindmap="clickMe"
+type="default">按钮</button>
+<button bindmap="clickMe"
+type="primary" plain>按钮</button>
+<button bindmap="clickMe"
+type="primary" plain loading="{{isLoading}}">按钮</button>
+<button bindmap="clickMe"
+type="warn" open-type="contact">打开客服对话</button>
+<button bindmap="clickMe"
+type="primary" open-type="openSetting">打开授权设置页面</button>
+<button bindmap="clickMe"
+type="primary" open-type="share">转发</button>
+<button bindmap="clickMe"
+type="primary" open-type="feedback">打开意见反馈</button>

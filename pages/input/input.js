@@ -1,13 +1,27 @@
-// pages/text/text.js
+// pages/input/input.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:'我是第2个文本',
-    isShow:true,
-    view:'MAIN'
+    value:'',
+    datas:'',
+  },
+
+  onbindinput:function(event){
+    var value = event.detail.value;
+    console.log("value---->"+value);
+    this.setData({
+      value: event.detail.value,
+      datas: event.detail.value + "000",
+    })
+  },
+
+  onbindblur:function(event){
+    var value = event.detail.value;
+    console.log("-------------------")
+    console.log("value---->" + value)
   },
 
   /**

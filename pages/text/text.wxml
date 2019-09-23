@@ -6,3 +6,6 @@
   <text>我是第4个文本\n</text>
   <text>我是第5个文本\n</text>
 </view>
+<view wx:if="{{view == 'WEBVIEW'}}">WEBVIEW</view>
+<view wx:elif="{{view == 'APP'}}">APP</view>
+<view wx:else="{{view == 'MAIN'}}">MAIN</view>

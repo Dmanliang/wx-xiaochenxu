@@ -1,0 +1,22 @@
+<!-- <block wx:for="{{itemBeans}}" wx:for-item="items" wx:key="index">
+  <view>{{items.title}}</view>
+</block> -->
+
+<block wx:for="{{itemBeans}}" wx:key="{{index}}">
+   <view  class="view1-style" style="background:{{item.bgColor}}">
+    <view class="view-left-style">
+      <text class="view-style-text">{{item.title}}</text>
+      <image class="view-left-style-image" src="{{item.imageUrl}}"></image>
+    </view>
+    <view class="view-right-style">
+      <view class="view-r-t-style">
+        <text class="view-r-style-text">{{item.items[0].title}}</text>
+        <text class="view-r-style-text">{{item.items[1].title}}</text>
+      </view>
+      <view class="view-r-b-style">
+        <text class="view-r-style-text">{{item.items[2].title}}</text>
+        <text class="view-r-style-text">{{item.items[3].title}}</text>
+      </view>
+    </view>
+  </view>
+</block> 

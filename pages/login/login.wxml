@@ -1,0 +1,27 @@
+<view class="login-content">
+  <!-- 头部布局 -->
+  <view class="login-header">
+    <image src="../../image/face.png"></image>
+    <text>Decml</text>
+    <text>北斗健康产业</text>
+  </view>
+
+  <!-- 用户名和密码 -->
+  <view class="user-pass">
+    <!-- 用户名 -->
+    <view class="user">
+      <image src="../../image/account.png"></image>
+      <input placeholder="请输入用户名" placeholder-class="placeholder-class-input"></input>
+    </view>
+    <!-- 密码 -->
+    <view class="password">
+      <image src="../../image/password.png"></image>
+      <input placeholder="请输入密码" placeholder-class="placeholder-class-input" type="password"></input>
+    </view>
+  </view>
+  <!-- 登录和注册按钮 -->
+  <view class="login-regist">
+    <button class="l-r-b">登录</button>
+    <button class="l-r-b">注册</button>
+  </view>
+</view>

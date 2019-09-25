@@ -1,0 +1,20 @@
+<scroll-view scroll-x="{{true}}">
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+  <view>item</view>
+</scroll-view>

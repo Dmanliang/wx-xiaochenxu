@@ -1,0 +1,14 @@
+scroll-view {
+  height: 400rpx;
+  background: skyblue;
+  /* 指定scroll-view里面的内容不能换行 */
+  white-space: nowrap;
+}
+
+view {
+  /* 指定为行内块级标签 */
+  display: inline-block;
+  width: 200rpx;
+  height: 100%;
+  border: 1rpx solid white;
+}

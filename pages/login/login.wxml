@@ -7,21 +7,21 @@
   </view>
 
   <!-- 用户名和密码 -->
-  <view class="user-pass">
-    <!-- 用户名 -->
-    <view class="user">
-      <image src="../../image/account.png"></image>
-      <input placeholder="请输入用户名" placeholder-class="placeholder-class-input"></input>
+  <form bindsubmit="onbindsubmit">
+    <view class="user-pass">
+      <!-- 用户名 -->
+      <view class="user">
+        <image src="../../image/account.png"></image>
+        <input placeholder="请输入用户名" placeholder-class="placeholder-class-input" name="username"></input>
+      </view>
+      <!-- 密码 -->
+      <view class="password">
+        <image src="../../image/password.png"></image>
+        <input placeholder="请输入密码" placeholder-class="placeholder-class-input" type="password" name="password"></input>
+      </view>
     </view>
-    <!-- 密码 -->
-    <view class="password">
-      <image src="../../image/password.png"></image>
-      <input placeholder="请输入密码" placeholder-class="placeholder-class-input" type="password"></input>
-    </view>
-  </view>
-  <!-- 登录和注册按钮 -->
-  <view class="login-regist">
-    <button class="l-r-b">登录</button>
-    <button class="l-r-b">注册</button>
-  </view>
+    <button class="l-r-b" hover-class="hover-class-style" type="primary" loading="{{loading_login}}" plain="{{plain_login}}" form-type="submit">{{text_login}}</button>
+  </form>
+  <button class="l-r-b" hover-class="hover-class-style" type="warn" loading="{{loading_register}}" bindtap="clickRegister" plain="{{plain_register}}">{{text_register}}</button>
+
 </view>

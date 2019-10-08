@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/swiper/swiper",
     "pages/openeye/openeye",
     "pages/login/login",
     "pages/scrollview/scroll_view",

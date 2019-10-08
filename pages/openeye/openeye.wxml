@@ -1,9 +1,7 @@
 <scroll-view scroll-y>
-  <block wx:for="{{itemsData}}" wx:key="{{index}}">
-    <view class="view-style" style="background:url({{item.image}}) center center no-repeat;background-size:cover">
-      <text>{{item.title}}</text>
-      <text>{{item.slogan}}</text>
-      <image src="{{item.icon}}"></image>
-    </view>
-  </block>
+  <view class="view-style" style="background:url({{item.image}}) center center no-repeat;background-size:cover" wx:for="{{itemsData}}" wx:key="{{index}}" bindtap="btnItemAction" data-pid="{{item.title}}" data-indd="{{index}}">
+    <text>{{item.title}}</text>
+    <text>{{item.slogan}}</text>
+    <image src="{{item.icon}}"></image>
+  </view>
 </scroll-view>

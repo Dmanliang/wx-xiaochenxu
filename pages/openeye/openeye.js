@@ -55,6 +55,14 @@ Page({
     ]
   },
   
+  btnItemAction:function(e){
+    var title = e.currentTarget.dataset.pid;
+    var indf = e.currentTarget.dataset.indd;
+    // wx.showToast({
+    //   title: titles,
+    // })
+    console.log(title)
+  },
 
   /**
    * 生命周期函数--监听页面加载

@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/xcheng2/xcheng_2",
+    "pages/button/button",
     "pages/openeye/openeye",
     "pages/swiper/swiper",
     "pages/login/login",
     "pages/scrollview/scroll_view",
-    "pages/button/button",
     "pages/input/input",
-    "pages/xcheng2/xcheng_2",
     "pages/xcheng/xcheng",
     "pages/image/image",
     "pages/view/view",
